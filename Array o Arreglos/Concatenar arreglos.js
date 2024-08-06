@@ -1,4 +1,4 @@
-
+// Prueba de gibhub
 console.log ("PRIMERA MANERA")
 
 function combineArray(array1, array2) {
