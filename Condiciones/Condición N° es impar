@@ -1,0 +1,30 @@
+// PRIMERA FUNCIÓN
+// Definición de la función
+function isOdd(num) {
+if (num % 2 !== 0){
+   let mensaje = "¡Verdadero!" + " el número " + num + " es impar";
+   return (mensaje);
+}
+else {
+  let mensaje1 = "¡Falso!" + " el número " + num + " es impar";
+    return (mensaje1);  
+}
+}
+// LLamado de función y envío de argumentos
+console.log(isOdd(2)); // => false
+console.log(isOdd(5)); // => true
+console.log(isOdd(-17)); // => true
+
+// SEGUNDA FUNCIÓN
+// Definición de la función
+function isOdd2(num) {
+       return (num % 2 !== 0);
+}
+let numero1 = 2;
+let numero2 = 5;
+let numero3 = -17;
+
+    // LLamado de función y envío de argumentos
+   console.log("¿El número " + numero1 + " es impar = " + isOdd2(2)); // => false
+   console.log("¿El número " + numero2 + " es impar = " + isOdd2(5));
+   console.log("¿El número " + numero3 + " es impar = " + isOdd2(-17));

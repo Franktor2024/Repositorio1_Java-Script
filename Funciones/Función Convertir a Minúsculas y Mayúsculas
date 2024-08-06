@@ -1,0 +1,8 @@
+function whisper(str1, str2) {
+let cadena1 = str1.toLowerCase ();
+let cadena2 = str2.toUpperCase ();
+console.log(cadena1);
+console.log(cadena2)
+return 
+}
+whisper("HEY BUDDY","YEA! that was fun"); // => "...hey buddy..."
