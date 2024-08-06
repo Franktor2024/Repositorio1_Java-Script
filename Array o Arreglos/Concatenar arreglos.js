@@ -10,7 +10,7 @@ console.log(combineArray([1, 2], [3, 4]));
 console.log(combineArray([17, 5], [6, 7]));  
 
 
-
+// OTRA PRUEBA
 console.log ("OTRA MANERA")
 
 function combineArray1(array1, array2) {
